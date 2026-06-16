@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>토트넘 상황판</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="dashboard">
+    <h1>토트넘 상황판</h1>
+
+    <!-- 상황판 카드를 모아 둔 영역입니다. -->
+    <section class="card-list">
+      <article class="card">
+        <h2>현재 스쿼드</h2>
+        <p>선수단의 현재 상태를 간단히 확인합니다.</p>
+      </article>
+
+      <article class="card">
+        <h2>이적 루머</h2>
+        <p>오늘 나온 이적 이야기를 한 줄로 정리합니다.</p>
+      </article>
+
+      <article class="card">
+        <h2>JJ 메모</h2>
+        <p id="jjMemo">JJ가 다음에 할 일을 메모합니다.</p>
+      </article>
+    </section>
+
+    <button id="memoButton" type="button">JJ 메모 바꾸기</button>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
