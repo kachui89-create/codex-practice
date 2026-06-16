@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fb;
+  color: #222;
+}
+
+.dashboard {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-size: 36px;
+}
+
+.card-list {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.card {
+  flex: 1;
+  padding: 24px;
+  background-color: white;
+  border: 1px solid #d9e2ef;
+  border-radius: 12px;
+  text-align: left;
+}
+
+.card h2 {
+  margin-top: 0;
+  color: #132257;
+}
+
+.card p {
+  line-height: 1.6;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 18px;
+  color: white;
+  background-color: #132257;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #263b80;
+}
