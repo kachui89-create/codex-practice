@@ -17,6 +17,7 @@ h1 {
   font-size: 36px;
 }
 
+/* 카드 3개를 가로로 배치합니다. */
 .card-list {
   display: flex;
   gap: 20px;
@@ -55,6 +56,7 @@ button:hover {
   background-color: #263b80;
 }
 
+/* 화면이 좁으면 카드가 세로로 쌓입니다. */
 @media (max-width: 700px) {
   .card-list {
     flex-direction: column;
